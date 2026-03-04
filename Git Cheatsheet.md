@@ -6,7 +6,7 @@ A simple list of go-to Git commands for common workflows.
 
 ## 1. Push a Local Project to GitHub
 
-### Step 1 — Create a repository on GitHub
+#### Step 1 — Create a repository on GitHub
 Create a new repository where you want to push your project.
 
 ### Step 2 — Initialize Git locally
