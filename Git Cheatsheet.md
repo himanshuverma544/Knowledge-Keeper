@@ -332,8 +332,7 @@ git remote set-url origin <NEW_URL>
 
 ## Useful Resources
 
-### Git Handbook
-https://guides.github.com/introduction/git-handbook/
+### (Git Handbook)[https://guides.github.com/introduction/git-handbook/]
 
 ### .gitignore Guide
 https://www.pluralsight.com/guides/how-to-use-gitignore-file
