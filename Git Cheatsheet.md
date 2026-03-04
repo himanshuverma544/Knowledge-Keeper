@@ -332,16 +332,13 @@ git remote set-url origin <NEW_URL>
 
 ## Useful Resources
 
-### (https://guides.github.com/introduction/git-handbook/)[Git Handbook]
+### [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
-### .gitignore Guide
-https://www.pluralsight.com/guides/how-to-use-gitignore-file
+### [.gitignore Guide](https://www.pluralsight.com/guides/how-to-use-gitignore-file)
 
-### Undo Specific Commit
-https://stackoverflow.com/questions/2318777/undo-a-particular-commit-in-git-thats-been-pushed-to-remote-repos
+### [Undo Specific Commit](https://stackoverflow.com/questions/2318777/undo-a-particular-commit-in-git-thats-been-pushed-to-remote-repos)
 
-### Revert vs Reset
-https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit
+### [Revert vs Reset](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 
 ### Git Rebase
 https://www.youtube.com/watch?v=f1wnYdLEpgI
