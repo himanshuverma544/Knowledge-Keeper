@@ -332,28 +332,22 @@ git remote set-url origin <NEW_URL>
 
 ## Useful Resources
 
-### [Git Handbook](https://guides.github.com/introduction/git-handbook/)
+- [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
-### [.gitignore Guide](https://www.pluralsight.com/guides/how-to-use-gitignore-file)
+- [.gitignore Guide](https://www.pluralsight.com/guides/how-to-use-gitignore-file)
 
-### [Undo Specific Commit](https://stackoverflow.com/questions/2318777/undo-a-particular-commit-in-git-thats-been-pushed-to-remote-repos)
+- [Undo Specific Commit](https://stackoverflow.com/questions/2318777/undo-a-particular-commit-in-git-thats-been-pushed-to-remote-repos)
 
-### [Revert vs Reset](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
+- [Revert vs Reset](https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit)
 
-### Git Rebase
-https://www.youtube.com/watch?v=f1wnYdLEpgI
+- [Git Rebase](https://www.youtube.com/watch?v=f1wnYdLEpgI)
 
-https://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/
+- [4 Ways to Avoid Merge Commits in Git](https://kernowsoul.com/blog/2012/06/20/4-ways-to-avoid-merge-commits-in-git/)
 
-### Undo Pull
-https://stackoverflow.com/questions/5815448/how-to-undo-a-git-pull/5815626
+- [Undo Pull](https://stackoverflow.com/questions/5815448/how-to-undo-a-git-pull/5815626)
 
-### Configure Git User
+- [Configure Git User](https://www.codegrepper.com/code-examples/shell/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git)
 
-https://www.codegrepper.com/code-examples/shell/vscode+make+sure+you+configure+your+%27user.name%27+and+%27user.email%27+in+git
-
-### Create GitHub Token
-
-https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to
+- [Create GitHub Token](https://stackoverflow.com/questions/68775869/support-for-password-authentication-was-removed-please-use-a-personal-access-to)
 
 ---
