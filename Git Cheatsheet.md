@@ -133,7 +133,7 @@ If both **local and remote files changed**, you must:
 
 ---
 
-# 3. Branching
+## 3. Branching
 
 ### Create and switch to new branch
 
@@ -209,7 +209,7 @@ git reflog
 
 ---
 
-# 4. Useful Git Utilities
+## 4. Useful Git Utilities
 
 ### Show file differences
 
@@ -286,7 +286,7 @@ git reset --hard commit-id
 
 ---
 
-# 6. Reverting Commits
+## 6. Reverting Commits
 
 Revert a specific commit
 
@@ -296,7 +296,7 @@ git revert commit-hash
 
 ---
 
-# 7. Force Push (Use Carefully)
+## 7. Force Push (Use Carefully)
 
 ```bash
 git push --force origin branch-name
@@ -304,7 +304,7 @@ git push --force origin branch-name
 
 ---
 
-# 8. Undo Last Pull
+## 8. Undo Last Pull
 
 ```bash
 git reset --keep HEAD@{1}
@@ -312,7 +312,7 @@ git reset --keep HEAD@{1}
 
 ---
 
-# 9. Pull Without Merge Commits
+## 9. Pull Without Merge Commits
 
 ```bash
 git pull --rebase
@@ -322,7 +322,7 @@ Useful when you committed locally before pulling.
 
 ---
 
-# 10. Change Remote URL
+## 10. Change Remote URL
 
 ```bash
 git remote set-url origin <NEW_URL>
@@ -330,7 +330,7 @@ git remote set-url origin <NEW_URL>
 
 ---
 
-# Useful Resources
+## Useful Resources
 
 ### Git Handbook
 https://guides.github.com/introduction/git-handbook/
