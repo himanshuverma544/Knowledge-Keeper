@@ -1,27 +1,27 @@
-# Git Cheatsheet
+## Git Cheatsheet
 
 A simple list of go-to Git commands for common workflows.
 
 ---
 
-## 1. Push a Local Project to GitHub
+### 1. Push a Local Project to GitHub
 
 #### Step 1 — Create a repository on GitHub
 Create a new repository where you want to push your project.
 
-### Step 2 — Initialize Git locally
+#### Step 2 — Initialize Git locally
 ```bash
 git init
 ```
 
-### Step 3 — Check file status
+#### Step 3 — Check file status
 ```bash
 git status
 ```
 
 Shows untracked files in **red**.
 
-### Step 4 — Add files to staging area
+#### Step 4 — Add files to staging area
 
 Add all files
 
@@ -41,14 +41,14 @@ Add specific file
 git add path/to/file
 ```
 
-### Step 5 — Verify staged files
+#### Step 5 — Verify staged files
 ```bash
 git status
 ```
 
 Staged files appear in **green**.
 
-### Step 6 — Commit the changes
+#### Step 6 — Commit the changes
 
 ```bash
 git commit -m "your message"
@@ -60,7 +60,7 @@ Use meaningful messages like:
 - update
 - delete
 
-### Step 7 — Add remote repository
+#### Step 7 — Add remote repository
 
 ```bash
 git remote add origin <REMOTE_URL>
@@ -72,13 +72,13 @@ Example
 git remote add origin https://github.com/username/repo.git
 ```
 
-### Step 8 — Verify remote
+#### Step 8 — Verify remote
 
 ```bash
 git remote -v
 ```
 
-### Step 9 — Push code to GitHub
+#### Step 9 — Push code to GitHub
 
 ```bash
 git push -u origin branch-name
@@ -93,13 +93,13 @@ git push -u origin main
 ---
 
 
-## 2. Clone a Project from GitHub
+### 2. Clone a Project from GitHub
 
-### Step 1 — Create a local folder
+#### Step 1 — Create a local folder
 
 Navigate into the folder.
 
-### Step 2 — Clone repository
+#### Step 2 — Clone repository
 
 ```bash
 git clone <REMOTE_URL>
@@ -111,7 +111,7 @@ Example
 git clone https://github.com/username/repo.git
 ```
 
-### Step 3 — Pull latest changes
+#### Step 3 — Pull latest changes
 
 ```bash
 git pull origin branch-name
@@ -133,33 +133,33 @@ If both **local and remote files changed**, you must:
 
 ---
 
-## 3. Branching
+### 3. Branching
 
-### Create and switch to new branch
+#### Create and switch to new branch
 
 ```bash
 git checkout -b branch-name
 ```
 
-### Create branch only
+#### Create branch only
 
 ```bash
 git branch branch-name
 ```
 
-### Switch branch
+#### Switch branch
 
 ```bash
 git checkout branch-name
 ```
 
-### Show all branches
+#### Show all branches
 
 ```bash
 git branch
 ```
 
-### Merge branches
+#### Merge branches
 
 ```bash
 git merge branch-name
@@ -177,31 +177,31 @@ git checkout main
 git merge feature
 ```
 
-### Delete local branch
+#### Delete local branch
 
 ```bash
 git branch -d branch-name
 ```
 
-### Delete remote branch
+#### Delete remote branch
 
 ```bash
 git push origin --delete branch-name
 ```
 
-### Rename branch
+#### Rename branch
 
 ```bash
 git branch -m new-branch-name
 ```
 
-### Fix unrelated histories error
+#### Fix unrelated histories error
 
 ```bash
 git merge --allow-unrelated-histories branch-name
 ```
 
-### Restore branch from history
+#### Restore branch from history
 
 ```bash
 git reflog
@@ -209,16 +209,16 @@ git reflog
 
 ---
 
-## 4. Useful Git Utilities
+### 4. Useful Git Utilities
 
-### Show file differences
+#### Show file differences
 
 ```bash
 git diff file-name
 git diff branch-name
 ```
 
-### Show commit history
+#### Show commit history
 
 ```bash
 git log
@@ -230,7 +230,7 @@ Last 5 commits
 git log -5
 ```
 
-### Show specific commit
+#### Show specific commit
 
 ```bash
 git show commit-hash
@@ -238,15 +238,15 @@ git show commit-hash
 
 ---
 
-# 5. Restore and Undo Changes
+### 5. Restore and Undo Changes
 
-### Restore file changes
+#### Restore file changes
 
 ```bash
 git restore file-name
 ```
 
-### Remove from staging area
+#### Remove from staging area
 
 ```bash
 git restore --staged file-name
@@ -254,31 +254,31 @@ git restore --staged file-name
 
 ---
 
-### Undo last commit (keep changes)
+#### Undo last commit (keep changes)
 
 ```bash
 git reset --soft HEAD^
 ```
 
-### Undo last commit (delete changes)
+#### Undo last commit (delete changes)
 
 ```bash
 git reset --hard HEAD^
 ```
 
-### Reset to specific time
+#### Reset to specific time
 
 ```bash
 git reset --hard master@{"10 minutes ago"}
 ```
 
-### Reset to branch
+#### Reset to branch
 
 ```bash
 git reset --hard branch-name
 ```
 
-### Reset to commit
+#### Reset to commit
 
 ```bash
 git reset --hard commit-id
@@ -286,7 +286,7 @@ git reset --hard commit-id
 
 ---
 
-## 6. Reverting Commits
+### 6. Reverting Commits
 
 Revert a specific commit
 
@@ -296,7 +296,7 @@ git revert commit-hash
 
 ---
 
-## 7. Force Push (Use Carefully)
+### 7. Force Push (Use Carefully)
 
 ```bash
 git push --force origin branch-name
@@ -304,7 +304,7 @@ git push --force origin branch-name
 
 ---
 
-## 8. Undo Last Pull
+### 8. Undo Last Pull
 
 ```bash
 git reset --keep HEAD@{1}
@@ -312,7 +312,7 @@ git reset --keep HEAD@{1}
 
 ---
 
-## 9. Pull Without Merge Commits
+### 9. Pull Without Merge Commits
 
 ```bash
 git pull --rebase
@@ -322,7 +322,7 @@ Useful when you committed locally before pulling.
 
 ---
 
-## 10. Change Remote URL
+### 10. Change Remote URL
 
 ```bash
 git remote set-url origin <NEW_URL>
@@ -330,7 +330,7 @@ git remote set-url origin <NEW_URL>
 
 ---
 
-## Useful Resources
+### Useful Resources
 
 - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
