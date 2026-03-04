@@ -4,7 +4,7 @@ A simple list of go-to Git commands for common workflows.
 
 ---
 
-# 1. Push a Local Project to GitHub
+## 1. Push a Local Project to GitHub
 
 ### Step 1 — Create a repository on GitHub
 Create a new repository where you want to push your project.
@@ -92,17 +92,8 @@ git push -u origin main
 
 ---
 
-### Windows credential helper
 
-To stop Git from asking credentials repeatedly:
-
-```bash
-git config credential.helper store
-```
-
----
-
-# 2. Clone a Project from GitHub
+## 2. Clone a Project from GitHub
 
 ### Step 1 — Create a local folder
 
