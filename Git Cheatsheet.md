@@ -165,7 +165,7 @@ git branch
 git merge branch-name
 ```
 
-Important rule:
+**Important rule:**
 
 - Checkout the branch you want to merge **into**
 - Merge the branch you want to merge **from**
