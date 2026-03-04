@@ -1,4 +1,4 @@
-## Git Cheatsheet
+## GIT-CHEATSHEET
 
 A simple list of go-to Git commands for common workflows.
 
