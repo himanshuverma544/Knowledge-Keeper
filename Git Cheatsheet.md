@@ -123,7 +123,7 @@ Example
 git pull origin main
 ```
 
-#### Handling conflicts
+**Handling conflicts:**
 
 If both **local and remote files changed**, you must:
 
